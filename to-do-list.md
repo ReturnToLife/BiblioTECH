@@ -1,0 +1,19 @@
+
+- Update liste utilisateurs epitech automatique (ionis-users-informations)
+- Activation par pass ppp (sans mail)
+- Recuperation d'infos depuis l'ISBN (api amazon)
+- ajouter/supprimer des utilisateurs et admins
+- auto fill du profil (utiliser ionis-users-informations)
+- commentaires sur le profil
+- Copie des photos en local (utiliser ionis-users-informations)
+- decoupage de la page de comptes en plusieurs pages
+- faute dans la question bistro
+- gestionnaire de prets et d'emprunts
+- integrer un systeme de prise de contact (formulaire simple ou systeme de ticket complet)
+- lib php opensource pour recuperer des infos sur les livres
+- login dans l'url d'activation
+- mail de contact
+- Monter/Descendre les categories
+- prets et emprunts avec date et envoi de mail
+- recherche avancee par disponibilite et par ville
+- statistiques visite livres

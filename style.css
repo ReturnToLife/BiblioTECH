@@ -1,0 +1,451 @@
+body
+{
+	background: #90bee5;
+	font-family: 'Trebuchet MS', Tahoma, sans-serif;
+	color: #000000;
+	font-size: 12px;
+}
+
+img
+{
+	border: none;
+	font-size: 12px;
+	vertical-align: bottom;
+}
+
+a
+{
+	text-decoration: none;
+	color: #3C3C3C;
+}
+
+a:hover
+{
+    color: #000000;
+}
+
+#main
+{
+	margin: auto;
+	width: 1000px;
+	margin-top: 10px;
+}
+
+ul, li
+{
+    list-style-type: none;
+    list-style-position: inside;
+}
+
+h1, h2, h3, h4, h5, h6, ul, li
+{
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
+
+input, select, textarea
+{
+	font-size: 1em;
+	font-family: 'Trebuchet MS', Tahoma, sans-serif;
+	background: #ffffff url('images/interface/degrade_small.png') repeat-x bottom;
+	color: #454545;
+	border: 1px #717171 solid;
+	border-radius: 5px 5px;
+	-moz-border-radius: 5px;
+	margin: 2px;
+	padding: 2px;
+}
+input
+{
+	height: 15px;
+	padding: 2px;
+}
+select
+{
+	margin-right: 10px;
+}
+
+.file
+{
+    height: 25px;
+}
+
+.left { text-align: left; }
+.right { text-align: right; }
+.center { text-align: center; }
+
+table
+{
+    width: 100%;
+}
+td
+{
+    background: url('images/interface/degrade_small.png') repeat-x bottom center;
+    padding: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 2px;
+    border-radius: 5px 5px;
+    -moz-border-radius: 5px;
+}
+
+/****************/
+#header, #subheader, #page, #menu, #subheader #search_input, #subheader #select_input, #footer, .book, .book .thumb, .userstock, .userstock .photointra, .comment, #pbook .user_img, #pbook .book_img, .userwishlist, .book_small, .book_small .thumb, .book_nl, .book_nl .thumb, td
+{
+	border: 1px #717171 solid;
+}
+
+#header
+{
+	padding: 20px;
+	background: #ffffff url('images/interface/bg_header.png') repeat-x bottom;
+	text-shadow: #5F5F5F 1px 1px 5px;
+}
+#header #right
+{
+	float: right;
+	padding-right: 10px;
+}
+#header #logo
+{
+	padding-right: 35px;
+}
+
+#subheader
+{
+	background: #5B91BF;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	padding: 5px;
+	text-align: right;
+}
+#subheader #search_input
+{
+	margin: 5px;
+	width: 150px;
+}
+#subheader #select_input
+{
+}
+#subheader #search_img
+{
+	background: url('images/interface/rechercher.png');
+	width: 125px;
+	height: 30px;
+	border: none;
+ }
+
+#menu
+{
+	float: right;
+	width: 220px;
+	background: url('images/interface/bg.png');
+	color: #ffffff;
+	min-height: 640px;
+	text-align: center;
+}
+
+#menu li
+{
+    padding: 5px;
+    padding-left: 20px;
+}
+
+#menu a
+{
+    color: #ffffff;
+}
+#menu ul
+{
+    border-bottom: 10px solid #2C5887;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+#page
+{
+	width: 730px;
+	min-height: 600px;
+	padding: 20px;
+	background: #ffffff;
+}
+
+/* Books */
+
+.book, .userstock, .comment, .userwishlist, .book_small, .book_nl
+{
+    overflow: hidden;
+    text-align: center;
+    padding-right: 6px;
+    padding-left: 6px; 
+    padding-top: 6px;
+    padding-bottom: 15px;
+    float: left;
+    margin: 5px;
+    border-radius: 10px 10px;
+    -moz-border-radius: 10px;
+    background: url('images/interface/bg_book.png') repeat-x bottom;
+    color: #3C3C3C;
+    font-size: 10px;
+}
+.book_nl
+{
+    overflow: visible;
+}
+.book
+{
+    width: 150px;
+    height: 210px;
+}
+.bibst
+{
+    height: 320px;
+}
+.book_nl
+{
+    width: 185px;
+    min-height: 280px;
+}
+.book_small
+{
+    width: 100px;
+    height: 120px;
+}
+
+.thumb
+{
+    width: 100px;
+    height: 130px;
+}
+.mthumb
+{
+    width: 33px;
+    height: 43px;    
+}
+.book_small .thumb
+{
+    width: 50px;
+    height: 65px;
+}
+
+.book .title, .book_small .title, .book_nl .title
+{
+    margin: 0px;
+    padding: 0px;
+    font-size: 11px;
+    height: 14px;
+    overflow: hidden;
+    font-weight: bold;
+    padding-top: 4px;
+    padding-bottom: 2px;
+    margin-bottom: 2px;
+    border-bottom: 1px solid #717171;
+}
+
+.warning
+{
+    color: #FF0000;
+    font-size: 14px;
+    padding-left: 25px;
+    background: url('images/interface/icons/warning.png') no-repeat left center;
+    margin: 5px;
+}
+.ok
+{
+    color: #00FF00;
+    font-size: 14px;
+    padding-left: 25px;
+    background: url('images/interface/icons/checked.gif') no-repeat left center;
+    margin: 5px;
+}
+.info
+{
+    color: #001988;
+    font-size: 14px;
+    padding-left: 25px;
+    background: url('images/interface/icons/info.gif') no-repeat left center;
+    margin: 5px;
+}
+
+.form_elem
+{
+}
+.form_elem .title
+{
+    min-height: 32px;
+}
+.form_elem .select
+{
+    min-height: 35px;
+}
+.form_elem .text
+{
+    min-height: 170px;
+}
+.form_elem .sfile
+{
+    min-height: 38px;
+}
+.form_elem .iput
+{
+    width: 70%;
+    float: right;
+}
+.form_elem input,
+.form_elem select,
+.form_elem textarea
+{
+    width: 100%;
+}
+.form_elem textarea
+{
+    height: 150px;
+}
+#newbook .book_submit, .submit
+{
+    height: 25px;
+}
+
+#pbook h1, #pbook h3, #account h3
+{
+    color: #222222;
+    border-bottom: 4px solid #14416A;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+}
+#pbook h1
+{
+    font-size: 23px;
+}
+#pbook h3
+{
+    font-size: 18px;
+}
+#pbook h1:first-letter, #pbook .lab:first-letter, #pbook h3:first-letter, #account h3:first-letter
+{
+    color: #14416A;
+}
+
+#pbook li
+{
+    padding: 2px;
+}
+#pbook ul
+{
+    margin-top: 10px;
+}
+#pbook .lab
+{
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-right: 5px;
+/*    border-bottom: 1px dashed; */
+}
+#pbook .book_img
+{
+    background: #ffffff;
+    float: right;
+    width: 230px;
+    height: 300px;
+    margin-left : 20px;
+}
+#pbook .user_img
+{
+    background: #ffffff;
+    float: right;
+    width: 200px;
+    height: 240px;
+    margin-left : 20px;
+}
+#resume_comp
+{
+    color: #14416A;
+    border: 2px solid #5B91BF;
+    background: #C7DEF1;
+    padding: 10px;
+    border-radius: 10px 10px;
+    -moz-border-radius: 10px;    
+}
+
+#account .account_title
+{
+    height: 47px;
+    background: url('images/interface/mon-compte.png') no-repeat left center;
+    font-size: 25px;
+    padding-left : 210px;
+    padding-top: 10px;
+}
+.smallp
+{
+    height: 160px;
+}
+#account p, #pbook p, #home p, .p
+{
+    min-height: 250px;
+}
+#pbook .bookinfoo
+{
+    min-height: 280px;
+}
+.userlist
+{
+    height: 170px;
+}
+.userwish_list
+{
+    height: 50px;
+}
+.photointra
+{
+    width: 60px;
+    height: 72px;
+}
+.userstock
+{
+    margin-top: 0px;
+    width: 70px;
+    height: 130px;
+}
+.userwishlist
+{
+    margin-top: 0px;
+    padding-top: 10px;
+    width: 70px;
+}
+.comment
+{
+    float: none;
+    width: 710px;
+    min-height: 5px;
+    text-align: left;
+    font-size: 12px;
+}
+.comment .author
+{
+    color: #717171;
+    padding-left: 10px;
+    border-bottom: 1px dotted #717171;
+    margin-bottom: 10px;
+}
+.comment .date
+{
+    float: right;
+}
+
+#footer
+{
+	margin-top: 4px;
+	background: #5B91BF url('images/interface/degrade_small.png') repeat-x bottom;
+	height: 25px;
+	padding: 10px;
+	color: #ffffff;
+}
+#footer a
+{
+    color : #ffffff;
+    border-bottom: 1px dashed #ffffff;
+}
